@@ -1,0 +1,13 @@
+.addBtn {
+  background-color: rgba(204, 50, 176, 0.399);
+  cursor: pointer;
+  margin-top: 5px;
+  width: 20%;
+  justify-content: center;
+  justify-self: center;
+}
+
+.divAddCategory {
+  display: flex;
+  flex-direction: column;
+}
