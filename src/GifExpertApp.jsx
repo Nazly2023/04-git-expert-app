@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./GifExpertApp.css";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
+// Aquí se importa el archivo ./index.js el cual contiene las importaciones de los archivos 'AddCategory' y 'GifGrid'
+import { AddCategory, GifGrid } from "./components";
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState(["verduras", "Frutas"]);
